@@ -15,6 +15,9 @@
 		EB3F30271C5B13730067D8A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3F30251C5B13730067D8A2 /* LaunchScreen.storyboard */; };
 		EB3F30321C5B13740067D8A2 /* KVOResearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3F30311C5B13740067D8A2 /* KVOResearchTests.m */; };
 		EB3F303D1C5B13740067D8A2 /* KVOResearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3F303C1C5B13740067D8A2 /* KVOResearchUITests.m */; };
+		EB3F304C1C5B13960067D8A2 /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3F304B1C5B13960067D8A2 /* NSObject+DLIntrospection.m */; };
+		EB3F304F1C5B13A80067D8A2 /* TWPersion.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3F304E1C5B13A80067D8A2 /* TWPersion.m */; };
+		EB3F30551C5B6EAD0067D8A2 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3F30541C5B6EAD0067D8A2 /* TTTAttributedLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		EB3F30381C5B13740067D8A2 /* KVOResearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOResearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3F303C1C5B13740067D8A2 /* KVOResearchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOResearchUITests.m; sourceTree = "<group>"; };
 		EB3F303E1C5B13740067D8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3F304A1C5B13960067D8A2 /* NSObject+DLIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLIntrospection.h"; sourceTree = "<group>"; };
+		EB3F304B1C5B13960067D8A2 /* NSObject+DLIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DLIntrospection.m"; sourceTree = "<group>"; };
+		EB3F304D1C5B13A80067D8A2 /* TWPersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPersion.h; sourceTree = "<group>"; };
+		EB3F304E1C5B13A80067D8A2 /* TWPersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPersion.m; sourceTree = "<group>"; };
+		EB3F30531C5B6EAD0067D8A2 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		EB3F30541C5B6EAD0067D8A2 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,12 @@
 		EB3F30161C5B13730067D8A2 /* KVOResearch */ = {
 			isa = PBXGroup;
 			children = (
+				EB3F30531C5B6EAD0067D8A2 /* TTTAttributedLabel.h */,
+				EB3F30541C5B6EAD0067D8A2 /* TTTAttributedLabel.m */,
+				EB3F304D1C5B13A80067D8A2 /* TWPersion.h */,
+				EB3F304E1C5B13A80067D8A2 /* TWPersion.m */,
+				EB3F304A1C5B13960067D8A2 /* NSObject+DLIntrospection.h */,
+				EB3F304B1C5B13960067D8A2 /* NSObject+DLIntrospection.m */,
 				EB3F301A1C5B13730067D8A2 /* AppDelegate.h */,
 				EB3F301B1C5B13730067D8A2 /* AppDelegate.m */,
 				EB3F301D1C5B13730067D8A2 /* ViewController.h */,
@@ -271,8 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB3F301F1C5B13730067D8A2 /* ViewController.m in Sources */,
+				EB3F304C1C5B13960067D8A2 /* NSObject+DLIntrospection.m in Sources */,
+				EB3F304F1C5B13A80067D8A2 /* TWPersion.m in Sources */,
 				EB3F301C1C5B13730067D8A2 /* AppDelegate.m in Sources */,
 				EB3F30191C5B13730067D8A2 /* main.m in Sources */,
+				EB3F30551C5B6EAD0067D8A2 /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
